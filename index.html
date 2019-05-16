@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prega Guide</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="top-bar" >
+            UGAMA
+        </div>
+        <h1 class="msg">Welcome to Ugama!</h1>
+        <h2 class="submsg">...where life begins.</h2>
+    <div class="main-container">
+        <div class="form-holder">
+            <form action="login.php" method="POST">
+               <div class="email">
+                <label for="username">Username :</label><br>
+                <input name="uname" type="text" placeholder="Your Name" required>
+                </div>
+                <div class="password">
+                <label for="password">Password :</label><br>
+                <input name="password" type="password" placeholder="Your Password"  required>
+                </div>
+                <div class="loginbtn">
+                    <button type="submit" class="btn">Login</button>
+                </div>
+            </form>  
+        </div>
+    <div class="regform">
+        <form action="register.php" method="POST">
+        <p class="rf">Don't have an account yet?Register!</p>
+        <div class="r1">
+        <input name="rname" type="text" placeholder="Your Name" required>
+        </div>
+        <div class="r6">
+                <input name="rmail" type="text" placeholder="Your Email" required>
+        </div>
+        <div class="r2">
+        <input name="rphno" type="tel" placeholder="Your Phone Number" required>
+        </div>
+        <div class="r3">
+        <input name="rdate" type="text" placeholder="Your Date of Last Period(YYYY-MM-DD)">
+        </div>
+        <div class="r4">
+        <input name="rpass" type="password" placeholder="Your Password" required>
+        </div>
+        <div class="r5">
+        <button type="submit" class="b2">Register</button>
+        </div>
+    </form>   
+ </div>
+</div>
+</body>
+</html>
